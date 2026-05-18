@@ -1,0 +1,105 @@
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* página toda */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* título */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+/* subtítulos */
+h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+/* blocos */
+div {
+    margin-bottom: 15px;
+}
+
+/* labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+/* select e input */
+select,
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* botões */
+.Remover {
+    padding: 10px 18px;
+    margin-right: 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #be2727;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Adicionar{
+  padding: 10px 18px;
+    margin-right: 10px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #44b622;
+    color: white;
+
+    cursor: pointer;
+    transition: 0.2s;
+
+}
+
+/* efeito ao passar mouse */
+button:hover {
+    opacity: 0.85;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* lista */
+ul {
+    list-style: none;
+}
+
+/* cada item da lista */
+li {
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 8px;
+
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
