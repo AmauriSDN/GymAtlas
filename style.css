@@ -53,6 +53,16 @@ input {
     border-radius: 6px;
 }
 
+/*titulo*/
+.Gym {
+    position: absolute;
+    left: 10%;
+    color: #000000;
+    font-size: x-large;
+}
+
+
+
 /* botões */
 .Remover {
     padding: 10px 18px;
